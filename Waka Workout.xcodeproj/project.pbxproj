@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B09503011BC97F6D0074C6D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09503001BC97F6D0074C6D6 /* AppDelegate.swift */; };
-		B09503031BC97F6D0074C6D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09503021BC97F6D0074C6D6 /* ViewController.swift */; };
 		B09503061BC97F6D0074C6D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09503041BC97F6D0074C6D6 /* Main.storyboard */; };
-		B09503091BC97F6D0074C6D6 /* Waka_Workout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B09503071BC97F6D0074C6D6 /* Waka_Workout.xcdatamodeld */; };
 		B095030B1BC97F6D0074C6D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B095030A1BC97F6D0074C6D6 /* Assets.xcassets */; };
 		B095030E1BC97F6D0074C6D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B095030C1BC97F6D0074C6D6 /* LaunchScreen.storyboard */; };
 		B09503191BC97F6D0074C6D6 /* Waka_WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09503181BC97F6D0074C6D6 /* Waka_WorkoutTests.swift */; };
@@ -37,9 +35,7 @@
 /* Begin PBXFileReference section */
 		B09502FD1BC97F6D0074C6D6 /* Waka Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Waka Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09503001BC97F6D0074C6D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B09503021BC97F6D0074C6D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B09503051BC97F6D0074C6D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B09503081BC97F6D0074C6D6 /* Waka_Workout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Waka_Workout.xcdatamodel; sourceTree = "<group>"; };
 		B095030A1BC97F6D0074C6D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B095030D1BC97F6D0074C6D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B095030F1BC97F6D0074C6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,12 +96,10 @@
 			isa = PBXGroup;
 			children = (
 				B09503001BC97F6D0074C6D6 /* AppDelegate.swift */,
-				B09503021BC97F6D0074C6D6 /* ViewController.swift */,
 				B09503041BC97F6D0074C6D6 /* Main.storyboard */,
 				B095030A1BC97F6D0074C6D6 /* Assets.xcassets */,
 				B095030C1BC97F6D0074C6D6 /* LaunchScreen.storyboard */,
 				B095030F1BC97F6D0074C6D6 /* Info.plist */,
-				B09503071BC97F6D0074C6D6 /* Waka_Workout.xcdatamodeld */,
 			);
 			path = "Waka Workout";
 			sourceTree = "<group>";
@@ -258,9 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B09503031BC97F6D0074C6D6 /* ViewController.swift in Sources */,
 				B09503011BC97F6D0074C6D6 /* AppDelegate.swift in Sources */,
-				B09503091BC97F6D0074C6D6 /* Waka_Workout.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,19 +495,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B09503071BC97F6D0074C6D6 /* Waka_Workout.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B09503081BC97F6D0074C6D6 /* Waka_Workout.xcdatamodel */,
-			);
-			currentVersion = B09503081BC97F6D0074C6D6 /* Waka_Workout.xcdatamodel */;
-			path = Waka_Workout.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B09502F51BC97F6D0074C6D6 /* Project object */;
 }
