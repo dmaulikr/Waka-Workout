@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B075F77E1BCC79DD00713418 /* NewWorkoutTableDelegateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075F77D1BCC79DD00713418 /* NewWorkoutTableDelegateTest.swift */; settings = {ASSET_TAGS = (); }; };
+		B075F77F1BCC79DD00713418 /* NewWorkoutTableDelegateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075F77D1BCC79DD00713418 /* NewWorkoutTableDelegateTest.swift */; settings = {ASSET_TAGS = (); }; };
+		B075F7811BCC7A7700713418 /* NewWorkoutTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075F7801BCC7A7700713418 /* NewWorkoutTableDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		B075F7821BCC7A7700713418 /* NewWorkoutTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075F7801BCC7A7700713418 /* NewWorkoutTableDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		B075F7841BCC7B2D00713418 /* NewWorkoutTableDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075F7831BCC7B2C00713418 /* NewWorkoutTableDatasource.swift */; settings = {ASSET_TAGS = (); }; };
+		B075F7851BCC7B2D00713418 /* NewWorkoutTableDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075F7831BCC7B2C00713418 /* NewWorkoutTableDatasource.swift */; settings = {ASSET_TAGS = (); }; };
 		B09503011BC97F6D0074C6D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09503001BC97F6D0074C6D6 /* AppDelegate.swift */; };
 		B09503061BC97F6D0074C6D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09503041BC97F6D0074C6D6 /* Main.storyboard */; };
 		B095030B1BC97F6D0074C6D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B095030A1BC97F6D0074C6D6 /* Assets.xcassets */; };
@@ -52,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B075F77D1BCC79DD00713418 /* NewWorkoutTableDelegateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWorkoutTableDelegateTest.swift; sourceTree = "<group>"; };
+		B075F7801BCC7A7700713418 /* NewWorkoutTableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWorkoutTableDelegate.swift; sourceTree = "<group>"; };
+		B075F7831BCC7B2C00713418 /* NewWorkoutTableDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWorkoutTableDatasource.swift; sourceTree = "<group>"; };
 		B09502FD1BC97F6D0074C6D6 /* Waka Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Waka Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09503001BC97F6D0074C6D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B09503051BC97F6D0074C6D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -140,6 +149,7 @@
 			children = (
 				B09503181BC97F6D0074C6D6 /* Waka_WorkoutTests.swift */,
 				B095031A1BC97F6D0074C6D6 /* Info.plist */,
+				B075F77D1BCC79DD00713418 /* NewWorkoutTableDelegateTest.swift */,
 			);
 			path = "Waka WorkoutTests";
 			sourceTree = "<group>";
@@ -185,6 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				B095034B1BC9953A0074C6D6 /* NewWorkoutViewController.swift */,
+				B075F7801BCC7A7700713418 /* NewWorkoutTableDelegate.swift */,
+				B075F7831BCC7B2C00713418 /* NewWorkoutTableDatasource.swift */,
 			);
 			name = "New Workout";
 			sourceTree = "<group>";
@@ -323,10 +335,13 @@
 				B095033E1BC986E10074C6D6 /* Workout.swift in Sources */,
 				B095033A1BC985410074C6D6 /* WeightUnitEnum.swift in Sources */,
 				B09503011BC97F6D0074C6D6 /* AppDelegate.swift in Sources */,
+				B075F77E1BCC79DD00713418 /* NewWorkoutTableDelegateTest.swift in Sources */,
 				B09503331BC9829B0074C6D6 /* Exercise.swift in Sources */,
 				B09503361BC983580074C6D6 /* Weight.swift in Sources */,
 				B095034C1BC9953A0074C6D6 /* NewWorkoutViewController.swift in Sources */,
 				B09503411BC9881F0074C6D6 /* WorkoutWeek.swift in Sources */,
+				B075F7811BCC7A7700713418 /* NewWorkoutTableDelegate.swift in Sources */,
+				B075F7841BCC7B2D00713418 /* NewWorkoutTableDatasource.swift in Sources */,
 				B09503481BC9935A0074C6D6 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,10 +354,13 @@
 				B095033F1BC986E10074C6D6 /* Workout.swift in Sources */,
 				B095033B1BC985410074C6D6 /* WeightUnitEnum.swift in Sources */,
 				B09503191BC97F6D0074C6D6 /* Waka_WorkoutTests.swift in Sources */,
+				B075F77F1BCC79DD00713418 /* NewWorkoutTableDelegateTest.swift in Sources */,
 				B09503341BC9829B0074C6D6 /* Exercise.swift in Sources */,
 				B09503371BC983580074C6D6 /* Weight.swift in Sources */,
 				B095034D1BC9953A0074C6D6 /* NewWorkoutViewController.swift in Sources */,
 				B09503421BC9881F0074C6D6 /* WorkoutWeek.swift in Sources */,
+				B075F7821BCC7A7700713418 /* NewWorkoutTableDelegate.swift in Sources */,
+				B075F7851BCC7B2D00713418 /* NewWorkoutTableDatasource.swift in Sources */,
 				B09503491BC9935A0074C6D6 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,6 +581,7 @@
 				B095032A1BC97F6E0074C6D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B095032B1BC97F6E0074C6D6 /* Build configuration list for PBXNativeTarget "Waka WorkoutTests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +590,7 @@
 				B095032D1BC97F6E0074C6D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B095032E1BC97F6E0074C6D6 /* Build configuration list for PBXNativeTarget "Waka WorkoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +599,7 @@
 				B09503301BC97F6E0074C6D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
