@@ -13,7 +13,7 @@ class NewWorkoutTableDataSource: NSObject, UITableViewDataSource {
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let identifier = "WorkoutCell"
-        var cell = tableView.dequeueReusableCellWithIdentifier(identifier: String, indexPath: <#NSIndexPath#>)
+        var cell = tableView.dequeueReusableCellWithIdentifier(identifier, forIndexPath: indexPath)
         cell
     }
     
