@@ -9,6 +9,20 @@
 import Foundation
 import UIKit
 
-class NewWorkoutTableDatasource: NSObject, UITableViewDataSource {
+class NewWorkoutTableDataSource: NSObject, UITableViewDataSource {
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let identifier = "WorkoutCell"
+        var cell = tableView.dequeueReusableCellWithIdentifier(identifier: String, indexPath: <#NSIndexPath#>)
+        cell
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
     
 }
